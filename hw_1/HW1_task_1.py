@@ -2,6 +2,7 @@
 # Вводится целое число (любого размера).
 # Написать функцию, которая разобьет это число на разряды символом "пробел", Функция возвращает тип данных str
 # Например: 1234567 -> 1 234 567, 267 -> 267, 34976 -> 34 976`
+
 def split_number(num):
     if num <= 999:
         return (str(num))
@@ -28,3 +29,4 @@ print(split_number(100))
 print(split_number(1000))
 print(split_number(10000))
 print(split_number(100000))
+print(split_number(1000000))
