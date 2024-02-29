@@ -26,7 +26,6 @@ def split_number(num):
 
 
 print(split_number(100))
-print(split_number(1000))
-print(split_number(10000))
-print(split_number(100000))
-print(split_number(1000000))
+print(split_number(2222))
+print(split_number(33333))
+print(split_number(9999999))
